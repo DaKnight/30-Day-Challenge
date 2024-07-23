@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 9 JS Challenge</title>
+    <style>
+        .enlarge{
+            height: 500px;
+        }
+        .small{
+            height: 300px;
+        }
+        .para2{
+            border: 1px solid #000000;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="head">Hello!</h1>
+    <p class="para">Welcome to this page.</p>
+    <p class="para2" onmouseenter="changeBorderColor()" onmouseleave="defaultColor()">Nice of you to visit here.</p>
+    <button onclick="changeContent()">Change text content !</button>
+    <ul class="newlist">
+        <li>India</li>
+        <li>USA</li>
+    </ul>
+    <img src="./city-life.jpg" alt="image" class="enlarge">
+    <script src="day9.js"></script>
+</body>
+</html>
